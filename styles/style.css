@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+#logo-menu{
+    background-color:palegoldenrod;
+    padding: 25px;
+    overflow: hidden;
+    blur
+}
+.content{
+    width:1400px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width:20%;
+}
+.logo img{
+    float: left;
+   width: 75px;
+   height:60px;
+   padding: 3px;
+}
+.menu{
+    float: left;
+    width: 80%;
+    margin-top: 15px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    width: 9%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(4, 8, 14);
+     float: left;
+     margin-left:760px ;
+     padding-right:5px;
+     font-size:18px;
+     background: rgb(17, 118, 143);
+     border-radius: 8px;
+}
+.menu ul li a:first-child{
+    font-weight: bolder;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.banner-content{
+    text-align: center;
+    padding: 170px 0px;
+    color: rgb(228, 69, 69);
+}
+.banner-content h1{
+    font-size: 44px;
+    color: aqua;
+}
+.banner-content h3{
+    font-size: 32px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.blue-button{
+    
+    padding: 25px 20px;
+    width: 11%;
+    background: rgb(44, 153, 138);
+    margin-left: 610px;
+    border-radius: 8px;
+}
+.blue-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
